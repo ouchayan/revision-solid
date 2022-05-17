@@ -7,4 +7,9 @@
       displayWelcomeMessage(NameableInterface $entity) </br>
 - 3 : Liskov substitution principle : </br>
       L’idée du principe est que les enfants ne peuvent pas faire plus ou moins que leur parent. (Type de retour ,nombre des parametres , exeptions)
+- 4 : Interface Segregation Principle : </br>
+      Il faut pas forcé les classes d'implementer les methodes et fonctions. (Penser à l'umplementation multiple).
+- 5 : Dependency inversion principle : </br>
+      Passer un interface en parametre et non pas un object ( interface avec la methode pay() ...)
+  
    
